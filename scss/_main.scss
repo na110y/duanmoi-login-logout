@@ -1,0 +1,310 @@
+.contener-main {
+      margin: 0 auto;
+      max-width: 1066px;
+      z-index: 2;
+    & img {
+      width: 100%;
+      margin-top: 201px;
+    
+    } 
+}
+
+// form login
+.form-login {
+  position: relative;
+  max-width: 519px;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 40px;
+  padding: 40px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-525px);
+}
+.conten-login {
+  max-width: 471px;
+  width: 100%;
+  margin: 0 auto;
+        &_dangnhap {
+              position: relative;
+              font-family: $font;
+              font-style: normal;
+              font-weight: bold;
+              font-weight: 700;
+              font-size: 24px;
+              color: #650107;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          &_icon {
+            position: relative;
+            width: 96px;
+            height: 2px;
+            margin-top: 40px;
+            background: #FE616B;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            left: 188px;
+        &-or {
+
+          left: 39px;
+          padding:  4px;
+          background-color: #fff;
+          border-radius: 50%;
+        }
+    }
+
+      &_login {
+            position: relative;
+            margin-top: 27px;
+            display: flex;
+        &-txt{
+          font-family: $font;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.012em;
+          font-weight: 400;
+          margin: 0 8px 0 0;
+          color: rgba(101, 1, 7, 0.6); 
+        }
+        &-click {
+          font-family: $font;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.012em;
+          color: #FE616B;
+          }
+  }
+  &_email {
+    // position: relative;
+    display: grid;
+    max-width: 471px;
+    width: 100%;
+    margin:16px 0;
+      & label {
+        font-family: $font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-transform: capitalize;
+        color: rgba(101, 1, 7, 0.87);
+      }
+      & input {
+        position: relative;
+        line-height: normal;
+        outline: none;
+        border: 0;
+        box-sizing: border-box;
+        border-radius: 8px;
+        border: 1px solid #E8E8E8;
+        margin-top: 8px;
+        height: 30px;
+        padding: 0 16px;
+        color: rgba(101, 1, 7, 0.87);
+            &::placeholder {
+                font-family: $font;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.012em;
+                color: rgba(101, 1, 7, 0.87);
+            }
+    }
+  }
+  &_password {
+    display: grid;
+    max-width: 471px;
+    width: 100%;
+    margin:16px 0;
+    & img {
+      position: absolute;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      left: 88%;
+      top: 50%;
+
+      }
+      & label {
+        font-family: $font;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.012em;
+        text-transform: capitalize;
+        color: rgba(101, 1, 7, 0.87);
+      }
+        & input {
+          justify-content: space-between;
+          line-height: normal;
+          outline: none;
+          width: 100%;
+          box-sizing: border-box;
+          border-radius: 8px;
+          color: rgba(101, 1, 7, 0.87);
+          border: 1px solid #E8E8E8;
+          margin-top: 8px;
+          height: 30px;
+          padding: 0 16px;
+              &::placeholder {
+                  font-family: $font;
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 16px;
+                  line-height: 24px;
+                  letter-spacing: 0.012em;
+                  color: rgba(101, 1, 7, 0.87);
+                  
+                }
+
+            
+          
+          
+    }
+
+
+  }
+  &_checkbox {
+    position: relative;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-color: #FFFFFF ;
+    text-align: center;
+
+      &-check[type="checkbox"]  {  
+        display: none;
+      }
+      &-check[type="checkbox"] + label {  
+        position: absolute;
+        display:inline-block;
+        width:24px;
+        height:24px;
+        background: #FFFFFF;
+        border: 1px solid #E8E8E8;
+        border-radius: 8px;
+        margin: 0;
+        box-sizing: border-box;
+      }
+    }
+    &_luu {
+      position: absolute;
+      top: 0%;
+      font-family: $font;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.012em;
+      color: rgba(101, 1, 7, 0.87);
+    }
+    &_submit {
+      position: relative;
+      left: 66%;
+      color: rgba(101, 1, 7, 0.87);
+    }
+
+    &_qmk {
+          &-txt {
+            font-family:$font ;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: right;
+            letter-spacing: 0.012em;
+            color: #FE616B;
+          }
+    }
+
+}
+.form-login-dn {
+  margin-top: 34px;
+  width: 100%;
+  background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  &_txt {
+    padding: 12px 0 12px 0;
+    font-family: $font;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+  }
+}
+.form-login-or {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  height: 1px;
+  width: 60%;
+  background: rgba(101, 1, 7, 0.16);
+  text-align: center;
+  left: 20%;
+      &_txt{
+          position: absolute;
+          padding: 5px 16px;
+          background-color: #fff;
+          font-family: $font;
+          font-style: normal;
+          font-weight: normal;
+          font-size:16px;
+          line-height: 24px;
+          text-align: center;
+          letter-spacing: 0.012em;
+          color: rgba(101, 1, 7, 0.6);
+
+      }
+}
+.form-login-fb {
+  position: relative;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 36px;
+      & a {
+        position: absolute;
+        width: 100%;
+        font-family: $font;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.012em;
+        color: rgba(101, 1, 7, 0.87);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+}
+
+.footer {
+  position: absolute;
+  top: 112%;
+}
+
+
+
+
+
+

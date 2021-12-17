@@ -1,0 +1,263 @@
+.contener-main {
+      margin: 0 auto;
+      max-width: 1066px;
+      z-index: 2;
+    & img {
+      width: 100%;
+      margin-top: 201px;
+    
+    } 
+}
+
+// form login
+.form-login {
+  position: relative;
+  max-width: 519px;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 40px;
+  padding: 40px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-525px);
+
+
+}
+.conten-login {
+  max-width: 471px;
+  width: 100%;
+  margin: 0 auto;
+  & button {
+    width: 100%;
+    margin-top: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.012em;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+    border-radius: 8px;
+    padding: 12px 0;
+}
+
+        &_dangnhap {
+              position: relative;
+              font-family: $font;
+              font-style: normal;
+              font-weight: bold;
+              font-weight: 700;
+              font-size: 24px;
+              color: #650107;
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+          &_icon {
+            position: relative;
+            width: 96px;
+            height: 2px;
+            margin-top: 40px;
+            background: #FE616B;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            left: 188px;
+        &-or {
+
+          left: 39px;
+          padding:  4px;
+          background-color: #fff;
+          border-radius: 50%;
+        }
+    }
+
+      &_login {
+            position: relative;
+            margin-top: 27px;
+            display: flex;
+        &-txt{
+          font-family: $font;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.012em;
+          font-weight: 400;
+          margin: 0 8px 0 0;
+          color: rgba(101, 1, 7, 0.6); 
+        }
+        &-click {
+          font-family: $font;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 0.012em;
+          color: #FE616B;
+          }
+  }
+}
+.form-list_dn {
+  position: relative;
+  display: grid;
+  align-items: center;
+  margin-top: 17px;
+    &-title{
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.012em;
+      text-transform: capitalize;
+      color: rgba(101, 1, 7, 0.87);
+    }
+}
+
+// form mat khau
+.form-list_mk {
+  position: relative;
+  display: grid;
+  align-items: center;
+  margin-top: 8px;
+    &-icon1 {
+      position: absolute;
+      left: 92%;
+      top: 52%;
+    }
+
+}
+.form-list_dn-matkhau{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.012em;
+  text-transform: capitalize;
+  color: rgba(101, 1, 7, 0.87);
+}
+
+
+// form nhap lai mat khau
+.form-list_nlmk {
+  position: relative;
+  display: grid;
+  align-items: center;
+  margin-top: 8px;
+      &-icon2{
+        position: absolute;
+        left: 92%;
+        top: 52%;
+      }
+}
+.form-list_dn-nlmk{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.012em;
+  text-transform: capitalize;
+  color: rgba(101, 1, 7, 0.87);
+}
+.form-list_email {
+  position: relative;
+  display: grid;
+  align-items: center;
+  margin-top: 8px;
+  &-code  {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        & a span {
+          width: 100%;
+          position: absolute;
+          top: 36%;
+          left: 84%;
+          justify-content: center;
+          align-items: center;
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.012em;
+          color: #FE616B;
+        }
+
+  }
+
+}
+.form-list_dn-email{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.012em;
+  text-transform: capitalize;
+  color: rgba(101, 1, 7, 0.87);
+
+}
+
+// mã xác thực
+
+.form-list_dn-div {
+  position: relative;
+  left: 7%;
+  top: 26%;
+
+    &-a {
+  position: absolute;
+  top: 58%;
+  left: 3.8%;
+  width: 2px;
+  height: 84px;
+  background: #FE616B;
+  opacity: 0.38;
+  border-radius: 1000px;
+    }
+    & a {
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      /* identical to box height, or 143% */
+      letter-spacing: 0.012em;
+      text-transform: capitalize;
+      color: rgba(101, 1, 7, 0.87);
+      }
+      & input {
+        width: 92.8%;
+        &::placeholder { 
+          font-family: Montserrat;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 16px;
+          line-height: 24px;
+          letter-spacing: 0.012em;
+          color: rgba(101, 1, 7, 0.32);
+        }
+      }
+      
+}
+
+
+
+.footer {
+  position: absolute;
+  top: 111%;
+}
+
+
+
+
+
+

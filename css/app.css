@@ -1,0 +1,409 @@
+label,
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+}
+
+.warpper {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1310px;
+  margin: 0 auto;
+}
+
+ul, li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+  color: rgba(101, 1, 7, 0.87);
+  text-align: center;
+  letter-spacing: 0.012em;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  background-image: url("/image/Rectangle 3.png");
+  background-size: cover;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 36px;
+}
+.menu-list-div {
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.4);
+}
+.menu-list-item, .menu-list a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-list-item_icon1, .menu-list a_icon1 {
+  background: rgba(255, 255, 255, 0.24);
+  padding: 8px 9px;
+  border-radius: 50%;
+  margin: 8px;
+}
+.menu-list-item_icon2, .menu-list a_icon2 {
+  background: rgba(255, 255, 255, 0.24);
+  padding: 8px 9px;
+  border-radius: 50%;
+  margin: 8px;
+}
+.menu-list-item span, .menu-list a span {
+  color: rgba(255, 255, 255, 0.87);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.003em;
+  text-align: left;
+}
+.menu-list-item .menu-list-fb, .menu-list a .menu-list-fb {
+  padding: 8px 9px;
+}
+.menu a .menu-list-fb {
+  padding: 8px 11px;
+  background: rgba(255, 255, 255, 0.24);
+  border-radius: 20px;
+}
+
+.contener-main {
+  margin: 0 auto;
+  max-width: 1066px;
+  z-index: 2;
+}
+.contener-main img {
+  width: 100%;
+  margin-top: 201px;
+}
+
+.form-login {
+  position: relative;
+  max-width: 519px;
+  width: 100%;
+  background: #FFFFFF;
+  border-radius: 40px;
+  padding: 40px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-525px);
+}
+
+.conten-login {
+  max-width: 471px;
+  width: 100%;
+  margin: 0 auto;
+}
+.conten-login_dangnhap {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-weight: 700;
+  font-size: 24px;
+  color: #650107;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conten-login_icon {
+  position: relative;
+  width: 96px;
+  height: 2px;
+  margin-top: 40px;
+  background: #FE616B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 188px;
+}
+.conten-login_icon-or {
+  left: 39px;
+  padding: 4px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.conten-login_login {
+  position: relative;
+  margin-top: 27px;
+  display: flex;
+}
+.conten-login_login-txt {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.012em;
+  font-weight: 400;
+  margin: 0 8px 0 0;
+  color: rgba(101, 1, 7, 0.6);
+}
+.conten-login_login-click {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.012em;
+  color: #FE616B;
+}
+.conten-login_email {
+  display: grid;
+  max-width: 471px;
+  width: 100%;
+  margin: 16px 0;
+}
+.conten-login_email label {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.012em;
+  text-transform: capitalize;
+  color: rgba(101, 1, 7, 0.87);
+}
+.conten-login_email input {
+  position: relative;
+  line-height: normal;
+  outline: none;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #E8E8E8;
+  margin-top: 8px;
+  height: 30px;
+  padding: 0 16px;
+  color: rgba(101, 1, 7, 0.87);
+}
+.conten-login_email input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.87);
+}
+.conten-login_password {
+  display: grid;
+  max-width: 471px;
+  width: 100%;
+  margin: 16px 0;
+}
+.conten-login_password img {
+  position: absolute;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  left: 88%;
+  top: 50%;
+}
+.conten-login_password label {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.012em;
+  text-transform: capitalize;
+  color: rgba(101, 1, 7, 0.87);
+}
+.conten-login_password input {
+  justify-content: space-between;
+  line-height: normal;
+  outline: none;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  color: rgba(101, 1, 7, 0.87);
+  border: 1px solid #E8E8E8;
+  margin-top: 8px;
+  height: 30px;
+  padding: 0 16px;
+}
+.conten-login_password input::placeholder {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.87);
+}
+.conten-login_checkbox {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-color: #FFFFFF;
+  text-align: center;
+}
+.conten-login_checkbox-check[type=checkbox] {
+  display: none;
+}
+.conten-login_checkbox-check[type=checkbox] + label {
+  position: absolute;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+  margin: 0;
+  box-sizing: border-box;
+}
+.conten-login_luu {
+  position: absolute;
+  top: 0%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.87);
+}
+.conten-login_submit {
+  position: relative;
+  left: 66%;
+  color: rgba(101, 1, 7, 0.87);
+}
+.conten-login_qmk-txt {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 0.012em;
+  color: #FE616B;
+}
+
+.form-login-dn {
+  margin-top: 34px;
+  width: 100%;
+  background: linear-gradient(180deg, #FE858D 0%, #FE616B 100%);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+.form-login-dn_txt {
+  padding: 12px 0 12px 0;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.form-login-or {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  height: 1px;
+  width: 60%;
+  background: rgba(101, 1, 7, 0.16);
+  text-align: center;
+  left: 20%;
+}
+.form-login-or_txt {
+  position: absolute;
+  padding: 5px 16px;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.6);
+}
+
+.form-login-fb {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 8px;
+  margin-top: 36px;
+}
+.form-login-fb a {
+  position: absolute;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.012em;
+  color: rgba(101, 1, 7, 0.87);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  top: 112%;
+}
+
+.header-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 8px;
+}
+.header-login-img {
+  background-color: #f0a8b5;
+}
+
+.header-ke {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  left: 0px;
+  top: 105px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+/*# sourceMappingURL=app.css.map */
